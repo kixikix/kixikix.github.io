@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="nav">
+            <div class="logo"></div>
+            <div class="nav-left" ></div>
+            <div class="nav-bottom">
+                <ul>
+                    <li class="first"><a  >首  页</a></li>
+                    <li><a >集团概况</a></li>
+                    <li><a >新闻中心</a></li>
+                    <li><a >产品服务</a></li>
+                    <li><a >企业文化</a></li>
+                    <li><a >综合业务</a></li>
+                    <li><a >品牌建设 </a></li>
+                    <li><a >人力资源</a></li>
+                    <li><a >上市公司</a></li>
+                    <li><a >国际合作</a></li>
+                </ul>
+            </div>
+           
+            
+        </div>
+        <div class="top-img">
+            <img src="../第10章上机/image/banner.gif" alt="">
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="content-index" style="margin-bottom: 10px;">
+                    <ul>
+                        <li style="width: 280px;margin-left: -32px;border-bottom: 0px;"><i style="color: red;font-style:normal;">图片</i>新闻</li>
+                        <li style="width: 344px;margin-right: 10px;margin-left: 18px;" class="two">集团新闻</li>
+                        <li style="width: 286px;" class="two">图片新闻</li>
+                    </ul>
+                </div>
+                <div class="content-left"></div>
+                <div class="content-mid">
+                    <ul>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                        <li>郑州市委书记连维良一年视察郑州保利百
+                            <i style="float: right;font-style:normal;font-size: 10px;">[2012-11-17]</i>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="content-right" style="font-size: 14px;"><img src="../第10章上机/image/company_02.jpg" alt="" style="width: 135px; height:194px;">
+                    保利房地产(集团)股份有限公司是中国保利集团控股的大型国有房地产上市公司，也是中国保利集团房地产业务的主要运作平台，国家一级房地产开发资质企业，国有房地产企业综合实力榜首，并连续五年蝉联央企房地产第一名。2006年7月，公司股票在上海......
+                  
+                </div>
+            </div>
+
+
+            <div class="content-pro">
+                <div class="text1">项目展示</div>
+                <div class="work" style="background-image: url(../第10章上机/image/1.jpg);"></div>
+                <div class="work" style="background-image: url(../第10章上机/image/2.jpg);"></div>
+                <div class="work" style="background-image: url(../第10章上机/image/3.jpg);"></div>
+                <div class="work" style="background-image: url(../第10章上机/image/4.gif);"></div>
+                <div class="content-search">
+                    <div class="text2"><i style="color: red;font-style:normal;">站内</i>搜索</div>
+                    <div style="color: red;font-style:normal;position: absolute;top: 52px;left: 86px;">关键字</div>
+                    <input type="text">
+                    <div class="aaaa" >Search</div>
+                </div>
+            </div>
+
+
+            <div class="bottom">
+                版权所有@保利房地产（集团）股份有限公司
+                <br>
+                2010-2020
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var content_index =document.querySelector('content-index');
+        var nav_bottom =document.querySelector('.nav-bottom').querySelectorAll('li');
+        for(var i= 0;i<nav_bottom.length;i++){
+            nav_bottom[i].addEventListener('click',function(){
+                
+                for(var i =0;i<nav_bottom.length;i++){
+                    nav_bottom[i].style.backgroundColor='#fff';
+                }
+                this.style.backgroundColor ='#c20a05';
+
+            })
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    background-image: url(../第8章上机/image/body.gif);
+    /* overflow: hidden; */
+}
+.banner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 960px;
+}
+.nav{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+.logo{
+    width: 208px;
+    height: 50px;
+    background-image: url(../第8章上机/image/logo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nav-left{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 656px;
+    height: 50px;
+    background: #000;
+}
+.nav-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 656px;
+    height: 41px;
+    background-color: #fff;
+}
+.nav-bottom ul{
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+}
+.nav-bottom ul li{
+    /* display: inline-block; */
+    /* position: absolute;
+    top: 0; */
+    float: left;
+    padding: 10px 8px 0;
+    height: 41px;
+    width: 67px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.nav-bottom ul .first{
+    position: absolute;
+    left: 0px;
+    width: 53px;
+    padding: 10px 8px 0;
+}
+
+.top-img{
+    height: 222px;
+    width: 960px;
+    background-color: pink;
+}
+
+.top-img img{
+    height: 222px;
+    width: 960px;
+}
+
+
+
+.box{
+    margin-top: -16px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.box-content{
+    width: 960px;
+    height: 260px;
+    /* background-color: pink; */
+}
+.content-index{
+    height: 35px;
+}
+.content-index li{
+    float: left;
+    height: 35px;
+    border-bottom: 1px solid red;
+    line-height: 35px;
+}
+.two:before{
+    display: inline-block;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-image: url(../第10章上机/image/ico5.gif);
+}
+.content-left{
+    width: 300px;
+    height: 200px;
+    background-image: url(../第10章上机/image/20110716114749_22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border-style: outset;
+    border: 7px solid #f4f3f4;
+    box-shadow: 2px 2px 1px #b2b1b7;
+}
+.content-mid{
+    top: 35px;
+    left: 300px;
+    position: absolute;
+    height: 208px;
+    width: 350px;
+    /* background-color:green; */
+}
+.content-mid ul{
+    padding-left: 10px;
+}
+.content-mid ul li{
+    height: 26px;
+    border-bottom: 1px dashed #b1a894;
+    font-size: 12px;
+    line-height: 26px;
+}
+.content-mid ul li::before{
+    display: inline-block;
+    margin-right: 2px;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 4px solid #000;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+.content-right{
+    top: 35px;
+    left: 662px;
+    position: absolute;
+    height: 225px;
+    width: 286px;
+    /* background-color: aqua; */
+    text-align: right;
+    line-height: 20px;
+}
+.content-right img{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    float: right;
+
+}
+.content-pro{
+    width: 960px;
+    height: 230px;
+
+}
+.text1{
+    margin-left: 10px;
+    margin-bottom: 6px;
+    width: 660px;
+    height: 22px;
+    line-height: 22px;
+    border-bottom: 2px solid red;
+}
+.content-pro .text1:before{
+    display: inline-block;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-image: url(../第10章上机/image/ico5.gif);
+}
+.content-pro .work{
+    margin-left: 10px;
+    float: left;
+    width: 158px;
+    height: 190px;
+    background-color: red;
+}
+.content-search{
+    position: relative;
+    margin-left: 52px;
+    display: inline-block;
+    width: 218px;
+    height: 158px;
+    background-image: url(../第10章上机/image/searchbg.gif);
+    clear: both;
+}
+.text2{
+    text-align: center;
+    line-height: 30px;
+}
+.content-search input{
+    position: absolute;
+    top: 72px;
+    left: 20px;
+    width: 173px;
+    height: 20px;
+}
+.aaaa{
+    position: absolute;
+    top: 114px;
+    left:73px;
+    width: 68px;
+    height: 21px;
+    box-shadow: 1px 0 1px #b1a894 ;
+    background-color: red;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+
+
+.bottom{
+    /* position: absolute;
+    bottom: 0; */
+    padding-top: 14px;
+    height: 62px;
+    width: 960px;
+    top: 20px;
+    text-align: center;
+    background-color: #b1a894;
+}
