@@ -1,0 +1,21 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    margin-top: 20px;
+}
+td{
+    width: 166px;
+    height: 32px;
+    padding-left:6px ;
+    background-color: #feff67;
+    border-bottom: 6px solid #fff;
+    border-right: 6px solid #fff;
+    vertical-align: auto;
+}
+tr:hover td{
+    background:none;
+    background-color: #cb9afe;
+}
