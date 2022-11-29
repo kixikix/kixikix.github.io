@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.box{
+    overflow:hidden;
+    position: relative;
+    width: 872px;
+    margin: 0 auto;
+    background-color: #676767;
+}
+.title{
+    margin-top: 32px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.dispatch{
+    position: relative;
+    margin-top: 62px;
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-left: 26px;
+    width: 808px;
+    height: 126px;
+    border: 1px solid #fff;
+}
+.dis{
+    position: absolute;
+    top: -9px;
+    left: 17px;
+    height: 18px;
+    background-color: #676767;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+}
+.receiving{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-left: 26px;
+    width: 808px;
+    height: 212px;
+    border: 1px solid #fff;
+}
+.message{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-left: 26px;
+    width: 808px;
+    height: 126px;
+    border: 1px solid #fff;
+}
+label{
+    font-size: 18px;
+    color: #fff;
+    line-height: 23px;
+}
+label:nth-of-type(2n) {
+    margin-left: 42px;
+}
+input{
+    margin-bottom: 18px;
+    outline:0;
+    height: 23px;
+    border:1px solid #000;
+    background-color: #e8e8e8;
+}
+.name{
+    width: 106px;
+}
+.address{
+    width: 280px;
+}
+.phone,#postcode1,#postcode2{
+    width: 202px;
+}
+#address3{
+    width: 188px;
+    border: 0;;
+}
+.a1{
+    margin: 0;
+    vertical-align: middle;
+}
+.pay{
+    margin: 0;
+    vertical-align: middle;
+}
+#ndelete{
+    margin-left: 0;
+}
+#nre{
+    margin-left: 42px;
+}
+#goodsname{
+    width: 518px;
+}
+#number,#weight{
+    width: 68px;
+}
+#time{
+    width: 202px;
+}
+.end{
+    margin:46px auto 32px;
+    width: 104px;
+    height: 28px;
+}
+.right{
+    width: 48px;
+    height: 28px;
+    border: 0;
+    
+}
+.right:active{
+    background: #383333;
+    color: #fff;
+}

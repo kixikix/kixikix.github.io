@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test2.css">
+</head>
+<body>
+    <div class="box">
+        <div class="title">增加快递信息</div>
+        <form action="test2.html" method="post">
+            <div class="dispatch">
+                <div class="dis">发货单</div>
+                <label for="name1">发货人姓名：</label>
+                <input type="text" name="name" id="name1" class="name" maxlength="3">
+                <label for="address1">发货人地址：</label>
+                <input type="text" name="address" id="address1" class="address">
+                <br>
+                <label for="phone1">发货人电话：</label>
+                <input type="tel" name="phone" id="phone1" class="phone" maxlength="11" minlength="11">
+                <label for="postcode1">发货人邮编：</label>
+                <input type="text" name="postcode" id="postcode1">
+
+            </div>
+            <div class="receiving">
+                <div class="dis">收货单</div>
+                <label for="name2">收货人姓名：</label>
+                <input type="text" name="name" id="name2" class="name" maxlength="3">
+                <label for="address2">收货人地址：</label>
+                <input type="text" name="address" id="address2" class="address">
+                <br>
+                <label for="phone2">收货人电话：</label>
+                <input type="tel" name="phone" id="phone2" class="phone" maxlength="11" minlength="11">
+                <label for="postcode2">收货人邮编：</label>
+                <input type="text" name="postcode" id="postcode2">
+                <br>
+                <label for="address3">地区：</label>
+                <input type="text" name="01" id="address3" list="aaa">
+                <datalist id="aaa">
+                    <option value="北京">北京</option>
+                    <option value="上海">上海</option>
+                    <option value="重庆">重庆</option>
+                    <option value="郑州">郑州</option>
+                    <option value="南京">南京</option>
+                    <option value="海南">海南</option>
+                </datalist>
+                <label for="">包装：
+                    <input type="checkbox" name="a2" id="" class="a1">纸箱
+                    <input type="checkbox" name="a2" id="" class="a1">木箱
+                    <input type="checkbox" name="a2" id="" class="a1">快递袋
+                    <input type="checkbox" name="a2" id="" class="a1">其他
+                </label>
+                <br>
+                <label for="">付款方式：
+                    <input type="radio" name="pay" id="" class="pay">现金
+                    <input type="radio" name="pay" id="" class="pay">支付宝
+                    <input type="radio" name="pay" id="" class="pay">网银
+                    <input type="radio" name="pay" id="" class="pay">ATM
+                </label>
+                
+            </div>
+            <div class="message">
+                <div class="dis">货物信息</div>
+                <label for="goodsname">货物名称：</label>
+                <input type="text" name="goodsname" id="goodsname">
+                <br>
+                <label for="number" id="ndelete">数量:</label>
+                <input type="text" name="number" id="number">
+                <label for="weight" id="nre">重量:</label>
+                <input type="text" name="weight" id="weight">
+                <label for="time" class="ndelete">发货时间:</label>
+                <input type="text" name="time" id="time">
+            </div>
+            <div class="end">
+                <input type="submit" name="submit" value="确定" class="right">
+                <input type="reset" value="取消" class="right">
+            </div>
+        </form>
+        
+    </div>
+</body>
+</html>
