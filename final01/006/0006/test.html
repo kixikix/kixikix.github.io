@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="nav">
+            <div class="logo"></div>
+            <div class="nav-left" ></div>
+            <div class="nav-bottom">
+                <ul>
+                    <li class="first"><a  >首  页</a></li>
+                    <li><a >集团概况</a></li>
+                    <li><a >新闻中心</a></li>
+                    <li><a >产品服务</a></li>
+                    <li><a >企业文化</a></li>
+                    <li><a >综合业务</a></li>
+                    <li><a >品牌建设 </a></li>
+                    <li><a >人力资源</a></li>
+                    <li><a >上市公司</a></li>
+                    <li><a >国际合作</a></li>
+                </ul>
+            </div>
+           
+            
+        </div>
+        <div class="top-img">
+            <img src="../第8章上机/image/zbanner.gif" alt="">
+        </div>
+        <div class="box">
+            <div class="content-index">
+                <div class="nav-middle">
+                    <div class="nav-middle-a">
+                        <div class="text">
+                            <!-- □您目前的位置：首页>>新闻中心>>集团 -->
+                            <a href="">□您目前的位置：</a>&gt&gt
+                            <a href="">首页</a>&gt&gt
+                            <a href="">新闻中心</a>&gt&gt
+                            <a href="">集团要闻</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page commen-box">
+                    <h6> 中国保利集团总经理张振高一行视察青岛公司 </h6>
+                    <span></span>
+                    <div>
+                        <p>2011年12月2日，中国保利集团副总经理国强一行科青鸟，在保利地产青岛公司总经理邢魏等的陪同下，对保利·海上岁三和保利·里院里等项目进行了深入视察.</p>
+                        <p>在视察过程中，国强总对保利·海上罗兰等项目的整体规划、产品设计、工程施工和示范区展示给予高度评价，并对青岛公司在今年严峻市场势下取得的良好业绩表示肯定:国强总强调，面对严峻的市场环境，公司在运作过程中更要坚持以“品牌、品质、品位”三品为一体，以高品质、高性价比的产品和高水平的服务嘉得市场，并重承保利地产-贯的情品开发路线，不断提高公司的核心竞争力。最后，国强总希望青鸟公司在临近年底时，加快资金回笼，国满完成公司各项任务指标</p>
+                        <!-- <div class="img"></div> -->
+                        <img src="../第8章上机/image/2011121352686433.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+
+
+            <div class="bottom">
+                版权所有@保利房地产（集团）股份有限公司
+                <br>
+                2010-2020
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var content_index =document.querySelector('content-index');
+        var nav_bottom =document.querySelector('.nav-bottom').querySelectorAll('li');
+        for(var i= 0;i<nav_bottom.length;i++){
+            nav_bottom[i].addEventListener('click',function(){
+                
+                for(var i =0;i<nav_bottom.length;i++){
+                    nav_bottom[i].style.backgroundColor='#fff';
+                }
+                this.style.backgroundColor ='#c20a05';
+
+            })
+        };
+    </script>
+</body>
+</html>
