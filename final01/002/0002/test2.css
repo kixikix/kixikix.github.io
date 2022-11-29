@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-style: normal;
+
+}
+.clearfix:before ,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+img{
+    vertical-align: middle;
+    margin: 4px;
+}
+.title{
+    height: 150px;
+    background-color: #fff;
+    background-image: url(../2022.10.18/test2/shutterstock_16717870.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+}
+.essay{
+    overflow: hidden;
+    background-color: #9da725;
+}
+.first{
+    margin-top: 16px;
+}
+.section{
+
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 28px;
+    
+}
+.end{
+    height: 100px;
+    background-image: url(../2022.10.18/test2/bg-0782.gif);
+}
