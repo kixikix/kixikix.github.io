@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    background-image: url(../第8章上机/image/body.gif);
+    overflow: hidden;
+}
+.banner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 864px;
+}
+.nav{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+.logo{
+    width: 208px;
+    height: 50px;
+    background-image: url(../第8章上机/image/logo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nav-left{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 656px;
+    height: 50px;
+    background: #000;
+}
+.nav-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 656px;
+    height: 41px;
+    background-color: #fff;
+}
+.nav-bottom ul{
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+}
+.nav-bottom ul li{
+    /* display: inline-block; */
+    /* position: absolute;
+    top: 0; */
+    float: left;
+    padding: 10px 8px 0;
+    height: 41px;
+    width: 67px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.nav-bottom ul .first{
+    position: absolute;
+    left: 0px;
+    width: 53px;
+    padding: 10px 8px 0;
+}
+
+.top-img{
+    height: 167px;
+    width: 100%;
+    background-color: pink;
+}
+
+.top-img img{
+    height: 167.5px;
+}
+
+
+
+.box{
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.commen-box{
+    overflow: hidden;
+    padding: 0 34px 0;
+}
+p{
+    font-size: 12px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+
+.nav-middle{
+    height: 36px;
+    width: 100%;
+
+    background:linear-gradient(to bottom,#fff,#ededed)
+}
+.nav-search{
+    float: right;
+    margin-top: 6px;
+}
+.nav-search div{
+    display: inline-block;
+}
+.search-img{
+    width: 80px;
+    height: 22px;
+    background-image: url(../第9章上机/image/top_search_btn.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+.text{
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+}
+h6{
+    text-align: center;
+}
+
+span{  
+    display: block;
+    width: 793px;
+    height: 1px;
+    border-bottom: 1px dashed #000;
+}
+.page img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.img{
+    
+    height: 338px;
+    width: 100%;
+    background-image: url("../第8章上机/image/2011121352686433.jpg");
+    background-repeat: no-repeat;
+    background-position: 225px 169px;
+    transform: translate(-50%,-50%);
+}
+.page-left{
+    display: inline-block;
+    width: 142px;
+}
+.page-left ul{
+    display: inline-block;
+    height: 140px;
+    width: 142px;
+    padding-left: 0px;
+    background-color: #f9f9f9;
+
+}
+.page-left li{
+    padding-left: 10px;
+
+    list-style:circle inside;
+    width: 142px;
+    height: 24px;
+    font-size: 12px;
+    border-bottom: 1px dashed #000;
+    line-height: 24px;
+}
+.page-left .ul-first{
+    list-style: none none;
+    padding-left: 10px;
+    width: 142px;
+    height: 22px;
+    margin-bottom: 12px;
+    background-image: url(../第9章上机/image/listhead.gif);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    line-height: 22px;
+    font-size: 11px;
+    color: #fff;
+}
+.main{
+    padding-left: 12px;
+    position: absolute;
+    top: 50px;
+    font-size: 10px;
+    display: inline-block;
+    width: 476px;
+    height: 388px;
+    margin-top: 0px;
+    /* float: right; */
+}
+.main-left{
+    list-style-type: square;
+}
+.main li{
+    height: 20px;
+    width: 342px;
+    border-bottom: 1px dashed #000;
+    color: #b1a894;
+    float: left;
+}
+.main .main-date{
+    width: 80px;
+    margin-right: 0px;
+    float: right;
+}
+.page span{
+    position: absolute;
+    top: 382px; 
+    left: 212px;
+    border-bottom: 0px;
+}
+
+.bottom{
+    /* position: absolute;
+    bottom: 0; */
+    margin-top: 200px;
+    padding-top: 14px;
+    height: 62px;
+    width: 864px;
+    top: 20px;
+    text-align: center;
+    background-color: #b1a894;
+}
