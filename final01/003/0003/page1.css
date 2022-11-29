@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav{
+    overflow:hidden;
+    margin-left: 6px;
+    display: block;
+    width: 174px;
+    background-color: #cccccc;
+}
+nav>a{
+    display: block;
+    margin-left: 14px;
+    color: #070000;
+    font-size: 16px;
+
+}
+.first{
+    margin-top: 20px;
+}
+ul{
+    margin-top: 14px;
+    margin-bottom: 26px;
+    margin-left: 6px;
+    display: block;
+    width: 160px;
+    height: 135px;
+    background-color: #fff;
+
+}
+ul li a{
+    margin-left: 6px;
+    color: #707372;
+    font-size: 20px;
+    line-height: 46px;
+    
+}

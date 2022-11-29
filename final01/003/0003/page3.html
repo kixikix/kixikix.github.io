@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="page3.css">
+    </head>
+    <body>
+        <nav>
+            全部商品分类
+            <div class="nav clearfix">
+                <ul class="ul">
+                    <li ><a href="#">电子书刊</a>
+                        <ul class="over">
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                        </ul></li>
+                    <li><a href="#">电子书刊</a>
+                        <ul class="over">
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                        </ul></li>
+
+                    <li><a href="#">电子书刊</a>
+                        <ul class="over">
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                        </ul></li>
+                    <li><a href="#">电子书刊</a>
+                        <ul class="over">
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                        </ul></li>
+                    <li><a href="#">电子书刊</a>
+                        <ul class="over">
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                        </ul></li>
+                    <li><a href="#">电子书刊</a>
+                        <ul class="over">
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                        </ul></li>
+                    <li><a href="#">电子书刊</a>
+                        <ul class="over">
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                            <li><a href="#">少儿</a></li>
+                        </ul></li>
+                </ul>
+                
+            </div>
+
+        </nav>
+
+        <script>
+            var ul= document.querySelector('ul');
+            console.log(ul);
+
+            var lis = ul.children;
+            console.log(lis);
+
+            for(var i =0;i<lis.length;i++){
+               
+
+                lis[i].onmouseover =function(){
+                    this.children[1].style.display ='block';
+                    this.children[0].className='onmouse';
+                   
+                }
+                lis[i].onmouseout = function(){
+                    this.children[0].className='outmouse';
+                    this.children[1].style.display ='none';
+
+                }
+            }
+         
+
+            
+        </script>
+    </body>
+    </html>
+    
+</body>
+</html>
